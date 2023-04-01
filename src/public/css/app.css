@@ -1,0 +1,139 @@
+@charset "UTF-8";
+.list {
+  position: absolute;
+  margin-top: 60px;
+  right: 160px; }
+
+h1 {
+  padding-top: 100px; }
+
+.btn-search {
+  background-color: #ffdad7;
+  margin-left: 20px; }
+
+#text {
+  margin-right: 20px;
+  margin-top: 10px; }
+
+#map {
+  padding-right: 1000px;
+  padding-top: 60px; }
+
+#group {
+  padding-top: 60px;
+  padding-left: 350px; }
+
+h4 {
+  padding-top: 20px;
+  padding-right: 200px; }
+
+.number p, .number input {
+  display: inline-block;
+  vertical-align: middle; }
+
+.number input {
+  margin-right: 10px;
+  /* khoảng cách giữa input và p */ }
+
+.number {
+  display: block;
+  margin: 250px auto;
+  text-align: center; }
+
+.center-button {
+  display: block;
+  margin: -240px auto;
+  text-align: center; }
+
+.payment {
+  display: block;
+  padding-left: 38em;
+  padding-top: 3em;
+  margin-bottom: 20px; }
+
+.payment-image {
+  margin-right: 30px; }
+
+.payment-radio {
+  margin-right: 0; }
+
+.pass div, .pass button {
+  display: inline-block; }
+
+.pass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.pass input {
+  margin-right: 70px;
+  margin-left: 70px; }
+ .confirm{
+  padding-left: 200px;
+ }
+
+.branch-name {
+  text-align:center;
+  padding-left: 100px;
+
+}
+.branch{
+  text-align:center;
+
+  padding-left: 170px;
+
+}
+.name{
+  text-align:center;
+  padding-left: 110px;
+
+}
+.hori{
+  width:64% ;
+  height: 1px;
+  background-color:black
+}
+
+.line{
+  background-color: black;
+    border: 0;
+    height: 1px;
+    margin-left:400px;                                                                                                                                                                      
+    margin-right:190px;
+
+  }
+.button{
+    display: block;
+    margin: 20px auto;
+    height: 35px;width: 100px;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+.post span {
+  text-align: left;
+  margin-right: 10px;
+  width: 100px;
+  display: inline-block;
+}
+.cbutton{
+  margin-right: 50px;
+
+}
+
+.cbutton{
+  margin: 90px 490px;        
+  background-color: #ffdad7;border:#000000;
+
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+}
