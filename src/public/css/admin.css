@@ -1,0 +1,63 @@
+#header{
+    display: flex; /*giúp sử dụng Flexbox để căn giữa phần tử.*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #FFDAD7;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    text-align: left;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.5s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #BF2200;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #BF2200;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/*HomePage*/
+
+
+#hero_admin{
+    background-image: url("public/img/logo.png");
+    width: 100%;
+    background-size: cover;
+    background-position: top 20% right 0;
+    background-repeat: no-repeat;
+    padding: 100px 200px ;
+}
+
+
